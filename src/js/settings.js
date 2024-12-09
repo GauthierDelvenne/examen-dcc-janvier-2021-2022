@@ -1,0 +1,15 @@
+export const settings = {
+    scoreElementSelector : '.information__score',
+    ulAppElementSelector: '.app',
+    timeElementSelector: '.information__time',
+    wrongCardsUlElementSelector: '.wrong-cards',
+    lastCardElementSelector: 'li:last-child',
+    ulAppEmptyElementSelector: '.app:empty',
+    maxTime: 10,
+    halfPoint: 0.5,
+    dataOptionElementId: "fonts",
+    formElementId: 'play',
+    nameInputElementId: 'font',
+    familyInputElementId: 'family',
+    endFormElementId: "play-again",
+}

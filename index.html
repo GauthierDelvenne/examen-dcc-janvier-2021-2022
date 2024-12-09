@@ -7,8 +7,9 @@
     <meta name="description" content="Cours Développement Côté Client 2020-2021">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="icon.png">
-    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="src/sass/main.scss">
     <meta name="theme-color" content="#fafafa">
+    <script type="module" defer src="src/js/main.js"></script>
 </head>
 
 <body class="">
@@ -22,8 +23,8 @@
 <h1 class="main-header">Tymper</h1>
 <div class="container">
     <div class="information box box--small">
-        <p class="information__score" data-text="Score&nbsp: "></p>
-        <p class="information__time" data-text="Temps restant pour cette carte&nbsp: "></p>
+        <p class="information__score" data-text="Score : "></p>
+        <p class="information__time" data-text="Temps restant pour cette carte : "></p>
     </div>
     <form action="#" id="play-again" class="play box play--again box play--again--hidden" method="get">
         <input class="play__item play__item--submit" type="submit" value="Recommencer">
@@ -31,12 +32,12 @@
     <ul class="app">
     </ul>
     <form action="#" id="play" class="play box" method="get">
-        <label class="play__item" for="font">Le nom &nbsp;:</label>
+        <label class="play__item" for="font">Le nom :</label>
         <input type="text" class="play__item play__item--search" placeholder="Entrez le nom" list="fonts" id="font"
                name="font"/>
         <datalist id="fonts">
         </datalist>
-        <label class="play__item" for="family">La famille &nbsp;:</label>
+        <label class="play__item" for="family">La famille :</label>
         <input type="text" class="play__item play__item--search" placeholder="Entrez la famille" list="families"
                id="family"
                name="family"/>
@@ -60,8 +61,7 @@
 
     </ul>
 </div>
-<script src="./index.js"></script>
-<script src="./main.js"></script>
+
 <!--<script src="http://localhost:3000/dist/js/main.js"></script>-->
 </body>
 </html>

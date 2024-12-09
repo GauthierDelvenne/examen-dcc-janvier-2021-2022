@@ -1,4 +1,4 @@
-window.fonts = [
+export const fonts = [
     {
         name: "Adobe Jenson",
         file: "adobe-jenson",
